@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+
+  --fc-today-bg-color: #fff;
+  --fc-non-business-color: rgba(211, 211, 211, 0.2);
+  --fc-border-color: var(--neutral-lighter);
+}
+
+.fc-col-header .fc-timegrid-axis {
+  border: 0;
+}
+
+.fc-timegrid-slot-label-frame {
+  line-height: 0.75rem;
+}
